@@ -1,6 +1,7 @@
 {
   "name": "@khyonn/test-design",
-  "version": "1.0.0",
+  "private": false,
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "files": ["dist"],
