@@ -1,0 +1,16 @@
+{
+  "name": "@khyonn/test-design",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "files": ["dist"],
+  "scripts": {
+    "build": "rm -Rf dist && sass src:dist/css --style=compressed --no-source-map"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.72.0"
+  }
+}
