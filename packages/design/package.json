@@ -6,6 +6,7 @@
   "main": "index.js",
   "files": ["dist"],
   "scripts": {
+    "dev": "rm -Rf dist && sass src:dist/css --style=compressed --no-source-map --watch",
     "build": "rm -Rf dist && sass src:dist/css --style=compressed --no-source-map"
   },
   "keywords": [],
